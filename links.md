@@ -1,3 +1,5 @@
+* blog :https://blog.aritraroy.in/20-awesome-open-source-android-apps-to-boost-your-development-skills-b62832cf0fa4
+  * https://blog.aritraroy.in/what-my-2-years-of-android-development-have-taught-me-the-hard-way-52b495ba5c51
 * https://www.youtube.com/watch?v=GAdGmJxfcf8
 * https://www.youtube.com/watch?v=LOcD1evBcSA&list=PL6j62WXKkENq1pM1vqv1P9abb99ttMiIZ
 * https://www.youtube.com/watch?v=2pirZvqXza0
