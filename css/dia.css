@@ -36,6 +36,9 @@ footer {
 	position: absolute;
 }
 
-.prezist{
+.embed-container {
+	height: 500px;
+}
+frame-prezi{
 	height: 500px;
 }
