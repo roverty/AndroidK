@@ -55,3 +55,12 @@ https://codigoalonso.blogspot.com/search/label/Android
 
 ## Important link for icon https://github.com/romannurik/AndroidAssetStudio
 
+Responsive and swipe evt
+
+http://www.androidcurso.com/index.php/recursos/36-unidad-5-entradas-en-android-teclado-pantalla-tactil-y-sensores/144-manejo-de-eventos-de-usuario
+
+https://www.youtube.com/watch?v=z5ovDP6PNcw
+
+https://stackoverflow.com/questions/6645537/how-to-detect-the-swipe-left-or-right-in-android
+
+https://developer.android.com/guide/practices/compatibility

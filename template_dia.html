@@ -51,6 +51,8 @@
 
     <!-- Page Content -->
     <div class="container">
+      <div class="row"> 
+      </div>
 
       <div class="row">
 
@@ -60,11 +62,54 @@
               <h1 class="my-4">Android Básico</h1>
               <h4>Lunes 7 de enero de 2019</h4>
               <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Presentaciones</a>
-                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Ejemplos</a>
-                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-material" role="tab" aria-controls="v-pills-profile" aria-selected="false">Material</a>
-                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Ejercicios</a>
-                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Tareas</a>
+                <a 
+                  class="nav-link active" 
+                  id="v-pills-presentaciones-tab" 
+                  data-toggle="pill" 
+                  href="#v-pills-presentaciones" 
+                  role="tab" 
+                  aria-controls="v-pills-presentaciones" 
+                  aria-selected="true">
+                  Presentaciones
+                </a>
+                <a 
+                  class="nav-link" 
+                  id="v-pills-ejemplos-tab" 
+                  data-toggle="pill" 
+                  href="#v-pills-ejemplos" 
+                  role="tab" 
+                  aria-controls="v-pills-ejemplos" 
+                  aria-selected="false">
+                  Ejemplos
+                </a>
+                <a 
+                  class="nav-link" 
+                  id="v-pills-recursos-tab" 
+                  data-toggle="pill" 
+                  href="#v-pills-recursos" 
+                  role="tab" 
+                  aria-controls="v-pills-recursos" 
+                  aria-selected="false">
+                  Recursos
+                </a>
+                <a 
+                  class="nav-link" 
+                  id="v-pills-ejercicios-tab" 
+                  data-toggle="pill" 
+                  href="#v-pills-ejercicios" 
+                  role="tab" 
+                  aria-controls="v-pills-ejercicios" 
+                  aria-selected="false">
+                  Ejercicios
+                </a>
+                <a 
+                  class="nav-link" 
+                  id="v-pills-tareas-tab" 
+                  data-toggle="pill" 
+                  href="#v-pills-tareas" 
+                  role="tab" 
+                  aria-controls="v-pills-tareas" 
+                  aria-selected="false">Tareas</a>
               </div>
             </div>
           </div>
@@ -83,12 +128,13 @@
 
         <div class="col-lg-9 fix-cards">
           <div class="tab-content" id="v-pills-tabContent">
-                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                <div class="tab-pane fade show active" id="v-pills-presentaciones" role="tabpanel" aria-labelledby="v-pills-presentaciones-tab">
                   <!--contenidooo -->
                   <a data-toggle="collapse" href="#pres1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><h2 class="my-4">Mi primera App</h2></a>
 
+                  <!--card-->
                   <div class="card mt-4 collapse multi-collapse" id="pres1">
-                    <img class="card-img-top img-fluid" src="http://placehold.it/900x400" alt="">
+                   <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 74.9288%;"><iframe src="//speakerdeck.com/player/d2ffddf4812f4c038983dea9bf19ee5f" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="autoplay; encrypted-media"></iframe></div>
                     <div class="card-body">
                       <h3 class="card-title">Product Name</h3>
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dicta fugit fugiat hic aliquam itaque facere, soluta. Totam id dolores, sint aperiam sequi pariatur praesentium animi perspiciatis molestias iure, ducimus!</p>
@@ -99,7 +145,8 @@
                   <a data-toggle="collapse" href="#pres2" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><h2 class="my-4">Mi segunda App</h2></a>
 
                   <div class="card mt-4 collapse multi-collapse" id="pres2">
-                    <img class="card-img-top img-fluid" src="http://placehold.it/900x400" alt="">
+                    <!--img class="card-img-top img-fluid" src="http://placehold.it/900x400" alt=""-->
+                    <iframe src="https://prezi.com/view/7vuG8QxDXlnDDqjogKAb/embed" height="500"></iframe>
                     <div class="card-body">
                       <h3 class="card-title">Product Name</h3>
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dicta fugit fugiat hic aliquam itaque facere, soluta. Totam id dolores, sint aperiam sequi pariatur praesentium animi perspiciatis molestias iure, ducimus!</p>
@@ -108,10 +155,42 @@
                   <!-- /.card -->
                   <!--/contenidooo -->
                 </div>
-                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-                <div class="tab-pane fade" id="v-pills-material" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+                <div class="tab-pane fade" id="v-pills-ejemplos" role="tabpanel" aria-labelledby="v-pills-ejemplos-tab">
+                  <!--contenidooo -->
+                  <a data-toggle="collapse" href="#linear" role="button" aria-expanded="false" aria-controls="multiCollapseExample2"><h2 class="my-4">LinearLayout</h2></a>
+
+                  <!--card-->
+                  <div class="mt-4 collapse multi-collapse" id="linear">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              
+                    <nav>
+                      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <a class="nav-item nav-link active" id="nav-xm1-tab" data-toggle="tab" href="#nav-xm1" role="tab" aria-controls="nav-xm1" aria-selected="true">preview</a>
+                        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">linear.xml</a>
+                        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">style.xml</a>
+                        <a class="nav-item nav-link" href="https://github.com/RodrigoFrancisco/Inter" target="_blank">Github</a>
+                      </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                      <div class="tab-pane fade show active" id="nav-xm1" role="tabpanel" aria-labelledby="nav-xm1-tab">
+                        <img src="01_basico/06_gui_ejemplos/preview/pre_form.png" class="rounded mx-auto d-block my-4">
+                      </div>
+                      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <script src="http://gist-it.appspot.com/https://github.com/RodrigoFrancisco/androidk/blob/master/01_basico/06_gui_ejemplos/03_linearlayout.md"></script>
+                      </div>
+                      <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+                    </div>
+                  </div>
+                  <!-- /.card -->
+                </div>
+                <div class="tab-pane fade" id="v-pills-recursos" role="tabpanel" aria-labelledby="v-pills-recursos-tab">...</div>
+                <div class="tab-pane fade" id="v-pills-ejercicios" role="tabpanel" aria-labelledby="v-pills-ejercicios-tab">...</div>
+                <div class="tab-pane fade" id="v-pills-tareas" role="tabpanel" aria-labelledby="v-pills-tareas-tab">...</div>
               </div>
         </div>
         <!-- /.col-lg-9 -->
