@@ -24,7 +24,7 @@ footer {
 	width: 100%; 
 	height: 0; 
 	position: relative; 
-	padding-bottom: 74.9288%;
+	padding-bottom: 56.1987%;
 }
 
 .speakdeckst{
@@ -34,11 +34,4 @@ footer {
 	width: 100%; 
 	height: 100%; 
 	position: absolute;
-}
-
-.embed-container {
-	height: 500px;
-}
-frame-prezi{
-	height: 500px;
 }
