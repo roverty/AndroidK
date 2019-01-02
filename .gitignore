@@ -195,7 +195,7 @@ fabric.properties
 # Package Files #
 *.jar
 *.nar
-*.zip
+#*.zip // necesario quitar para subir recursos a los asistentes
 *.tar.gz
 *.rar
 
