@@ -16,6 +16,16 @@
     <!-- Custom styles for this template -->
     <link href="css/androidk.css" rel="stylesheet">
 
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script>
+      $(function(){
+          $("#includedContent").load("test.html");
+      });
+    </script>
+
   </head>
 
   <body>
@@ -67,8 +77,17 @@
       <div class="row">
         <div class="col-sm-8">
           <h2 class="mt-4">¡Bienvenido a bordo!</h2>
-          <p>Aprende todo lo necesario para crear tu propia aplicación para el sistema operativo Android. Además de ello, aprende las mejores prácticas para garantizar la eficiencia y fácil mantenimiento de tu proyecto.</p>
-          <p> El sistema operativo Android está presente en cada rincón del planeta. De hecho, según la consultora IDC, a fines de 2017 la penetración de este sistema operativo alcanzó al 85%.  Además, distintos estudios demuestran que los usuarios pasan cada vez más tiempo utilizando aplicaciones móviles.</p>
+          <p>Aprende todo lo necesario para crear tu propia aplicación
+            para el sistema operativo Android. Además de ello, aprende
+            las mejores prácticas para garantizar la eficiencia y fácil
+            mantenimiento de tu proyecto.</p>
+          <p> El sistema operativo Android está presente en cada rincón
+            del planeta. De hecho, según la consultora IDC, a fines de
+            2017 la penetración de este sistema operativo alcanzó al 85%.
+            Además, distintos estudios demuestran que los usuarios pasan
+            cada vez más tiempo utilizando aplicaciones móviles.</p>
+          <div id="includedContent"></div>
+
         </div>
         <div class="col-sm-4 text-center">
           <h2 class="mt-4">Conoce a Andy ...</h2>
