@@ -71,44 +71,36 @@
                 id="v-pills-tab"
                 role="tablist"
                 aria-orientation="vertical">
-                <a
-                  class="nav-link active"
+                <a class="nav-link active"
+                  data-toggle="pill" role="tab"
+                  aria-selected="true"
                   id="v-pills-presentaciones-tab"
-                  data-toggle="pill"
                   href="#v-pills-presentaciones"
-                  role="tab"
-                  aria-controls="v-pills-presentaciones"
-                  aria-selected="true">
+                  aria-controls="v-pills-presentaciones">
                   Presentaciones
                 </a>
-                <a
-                  class="nav-link"
+                <a class="nav-link"
+                  data-toggle="pill" role="tab"
+                  aria-selected="false"
                   id="v-pills-ejemplos-tab"
-                  data-toggle="pill"
                   href="#v-pills-ejemplos"
-                  role="tab"
-                  aria-controls="v-pills-ejemplos"
-                  aria-selected="false">
+                  aria-controls="v-pills-ejemplos">
                   Ejemplos
                 </a>
-                <a
-                  class="nav-link"
+                <a class="nav-link"
+                  data-toggle="pill" role="tab"
+                  aria-selected="false"
                   id="v-pills-ejercicios-tab"
-                  data-toggle="pill"
                   href="#v-pills-ejercicios"
-                  role="tab"
-                  aria-controls="v-pills-ejercicios"
-                  aria-selected="false">
+                  aria-controls="v-pills-ejercicios">
                   Asignaciones
                 </a>
-                <a
-                  class="nav-link"
+                <a class="nav-link"
+                  data-toggle="pill" role="tab"
+                  aria-selected="false"
                   id="v-pills-recursos-tab"
-                  data-toggle="pill"
                   href="#v-pills-recursos"
-                  role="tab"
-                  aria-controls="v-pills-recursos"
-                  aria-selected="false">
+                  aria-controls="v-pills-recursos">
                   Recursos
                 </a>
               </div>
@@ -127,248 +119,250 @@
         </div>
 
         <div class="col-lg-9 fix-cards">
-          <div class="tab-content" id="v-pills-tabContent">
-                <div
-                  class="tab-pane fade show active"
-                  id="v-pills-presentaciones"
-                  role="tabpanel"
-                  aria-labelledby="v-pills-presentaciones-tab">
-                  <!--card-->
-                  <div class="card mt-4 multi-collapse">
+          <div class="tab-content"
+            id="v-pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                role="tabpanel"
+                id="v-pills-presentaciones"
+                aria-labelledby="v-pills-presentaciones-tab">
+
+                <div class="card mt-4 multi-collapse">
+                  <div class="embed-container">
+                    <iframe src="//speakerdeck.com/player/d2ffddf4812f4c038983dea9bf19ee5f"
+                      class="presentation-frame" allowfullscreen scrolling="no"
+                      allow="autoplay; encrypted-media">
+                    </iframe>
+                  </div>
+                  <div class="card-body">
+                    <h3 class="card-title">Presentación del curso</h3>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Sapiente dicta fugit fugiat hic aliquam itaque facere, soluta.
+                      Totam id dolores, sint aperiam sequi pariatur praesentium animi
+                      perspiciatis molestias iure, ducimus!
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card mt-4 multi-collapse">
+                  <div class="presentation">
                     <div class="embed-container">
-                      <iframe src="//speakerdeck.com/player/d2ffddf4812f4c038983dea9bf19ee5f"
+                      <iframe src="https://prezi.com/view/7vuG8QxDXlnDDqjogKAb/embed"
                         class="presentation-frame" allowfullscreen scrolling="no"
                         allow="autoplay; encrypted-media">
                       </iframe>
                     </div>
-                    <div class="card-body">
-                      <h3 class="card-title">Presentación del curso</h3>
-                      <p class="card-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Sapiente dicta fugit fugiat hic aliquam itaque facere, soluta.
-                        Totam id dolores, sint aperiam sequi pariatur praesentium animi
-                        perspiciatis molestias iure, ducimus!
-                      </p>
-                    </div>
                   </div>
-                  <!-- /.card -->
-
-                  <div class="card mt-4 multi-collapse">
-                    <div class="presentation">
-                      <div class="embed-container">
-                        <iframe src="https://prezi.com/view/7vuG8QxDXlnDDqjogKAb/embed"
-                          class="presentation-frame" allowfullscreen scrolling="no"
-                          allow="autoplay; encrypted-media">
-                        </iframe>
-                      </div>
-                    </div>
-                    <div class="card-body">
-                      <h3 class="card-title">Introducción a Android</h3>
-                      <p class="card-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dicta
-                        fugit fugiat hic aliquam itaque facere, soluta. Totam id dolores, sint aperiam
-                        sequi pariatur praesentium animi perspiciatis molestias iure, ducimus!
-                      </p>
-                    </div>
+                  <div class="card-body">
+                    <h3 class="card-title">Introducción a Android</h3>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dicta
+                      fugit fugiat hic aliquam itaque facere, soluta. Totam id dolores, sint aperiam
+                      sequi pariatur praesentium animi perspiciatis molestias iure, ducimus!
+                    </p>
                   </div>
-                  <!-- /.card -->
-                  <div class="card mt-4 multi-collapse">
-                    <div class="presentation">
-                      <div class="embed-container">
-                        <iframe src="https://prezi.com/view/7vuG8QxDXlnDDqjogKAb/embed"
-                          class="presentation-frame" allowfullscreen scrolling="no"
-                          allow="autoplay; encrypted-media">
-                        </iframe>
-                      </div>
-                    </div>
-                    <div class="card-body">
-                      <h3 class="card-title">Guis</h3>
-                      <p class="card-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dicta
-                        fugit fugiat hic aliquam itaque facere, soluta. Totam id dolores, sint
-                         aperiam sequi pariatur praesentium animi perspiciatis molestias iure, ducimus!
-                       </p>
-                    </div>
-                  </div>
-                  <!-- /.card -->
-                  <!--/contenidooo -->
                 </div>
-                <div class="tab-pane fade" id="v-pills-ejemplos" role="tabpanel" aria-labelledby="v-pills-ejemplos-tab">
-                  <!--contenidooo -->
-                  <h2 class="my-4">FrameLayout Joshi</h2>
 
-                  <!--card-->
-                  <div class="mt-4 multi-collapse" id="linear">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="card mt-4 multi-collapse">
+                  <div class="presentation">
+                    <div class="embed-container">
+                      <iframe src="https://prezi.com/view/7vuG8QxDXlnDDqjogKAb/embed"
+                        class="presentation-frame" allowfullscreen scrolling="no"
+                        allow="autoplay; encrypted-media">
+                      </iframe>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <h3 class="card-title">Guis</h3>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente dicta
+                      fugit fugiat hic aliquam itaque facere, soluta. Totam id dolores, sint
+                       aperiam sequi pariatur praesentium animi perspiciatis molestias iure, ducimus!
+                     </p>
+                  </div>
+                </div>
 
-                    <nav>
-                      <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                        <a class="nav-item nav-link active"
-                          id="nav-xm1-tab" data-toggle="tab"
-                          href="#nav-xm1" role="tab"
-                          aria-controls="nav-xm1"
-                          aria-selected="true">preview</a>
-                        <a class="nav-item nav-link"
-                          id="nav-profile-tab" data-toggle="tab"
-                          href="#nav-profile" role="tab"
-                          aria-controls="nav-profile"
-                          aria-selected="false">joshi.xml</a>
-                        <a class="nav-item nav-link"
-                          id="nav-josstyle-tab" data-toggle="tab"
-                          href="#nav-josstyle" role="tab"
-                          aria-controls="nav-josstyle"
-                          aria-selected="false">style.xml</a>
-                      </div>
-                    </nav>
+              </div>
+              <div class="tab-pane fade"
+                id="v-pills-ejemplos"
+                role="tabpanel"
+                aria-labelledby="v-pills-ejemplos-tab">
+                <!--contenidooo -->
+                <h2 class="my-4">FrameLayout Joshi</h2>
 
-                    <div class="tab-content" id="nav-tabContent">
-                      <div
-                        class="tab-pane fade show active"
-                        id="nav-xm1" role="tabpanel"
-                        aria-labelledby="nav-xm1-tab">
-                        <img src="01_basico/06_gui_ejemplos/preview/pre_joshi.png"
-                          class="rounded mx-auto d-block my-4">
-                      </div>
-                      <div
-                        class="tab-pane fade"
-                        id="nav-profile" role="tabpanel"
-                        aria-labelledby="nav-profile-tab">
-                        <script src="https://gist-it.appspot.com/https://github.com/RodrigoFrancisco/androidk/blob/gh-pages/01_basico/06_gui_ejemplos/01_framelayout/joshi.xml"></script>
-                      </div>
-                      <div
-                        class="tab-pane fade"
-                        id="nav-josstyle" role="tabpanel"
-                        aria-labelledby="nav-josstyle-tab">
-                        <script src="https://gist-it.appspot.com/https://github.com/RodrigoFrancisco/androidk/blob/gh-pages/01_basico/06_gui_ejemplos/01_framelayout/joshi_style.xml"></script>
-                      </div>
+                <!--card-->
+                <div class="mt-4 multi-collapse" id="linear">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                  <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                      <a class="nav-item nav-link active"
+                        id="nav-xm1-tab" data-toggle="tab"
+                        href="#nav-xm1" role="tab"
+                        aria-controls="nav-xm1"
+                        aria-selected="true">preview</a>
+                      <a class="nav-item nav-link"
+                        id="nav-profile-tab" data-toggle="tab"
+                        href="#nav-profile" role="tab"
+                        aria-controls="nav-profile"
+                        aria-selected="false">joshi.xml</a>
+                      <a class="nav-item nav-link"
+                        id="nav-josstyle-tab" data-toggle="tab"
+                        href="#nav-josstyle" role="tab"
+                        aria-controls="nav-josstyle"
+                        aria-selected="false">style.xml</a>
+                    </div>
+                  </nav>
+
+                  <div class="tab-content" id="nav-tabContent">
+                    <div
+                      class="tab-pane fade show active"
+                      id="nav-xm1" role="tabpanel"
+                      aria-labelledby="nav-xm1-tab">
+                      <img src="01_basico/06_gui_ejemplos/preview/pre_joshi.png"
+                        class="rounded mx-auto d-block my-4">
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="nav-profile" role="tabpanel"
+                      aria-labelledby="nav-profile-tab">
+                      <script src="https://gist-it.appspot.com/https://github.com/RodrigoFrancisco/androidk/blob/gh-pages/01_basico/06_gui_ejemplos/01_framelayout/joshi.xml"></script>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="nav-josstyle" role="tabpanel"
+                      aria-labelledby="nav-josstyle-tab">
+                      <script src="https://gist-it.appspot.com/https://github.com/RodrigoFrancisco/androidk/blob/gh-pages/01_basico/06_gui_ejemplos/01_framelayout/joshi_style.xml"></script>
                     </div>
                   </div>
                 </div>
-                <div
-                  class="tab-pane fade"
-                  id="v-pills-ejercicios" role="tabpanel"
-                  aria-labelledby="v-pills-ejercicios-tab">
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-ejercicios" role="tabpanel"
+                aria-labelledby="v-pills-ejercicios-tab">
 
-                  <h2 class="my-4">Inge-horario</h2>
+                <h2 class="my-4">Inge-horario</h2>
 
-                  <div class="mt-4 multi-collapse">
-                    <nav>
-                      <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                        <a
-                          class="nav-item nav-link active"
-                          id="nav-xm12-tab" data-toggle="tab"
-                          href="#nav-xm12" role="tab"
-                          aria-controls="nav-xm12"
-                          aria-selected="true">
-                          Descripcion
-                        </a>
-                        <a class="nav-item nav-link"
-                          id="nav-profile2-tab"
-                          data-toggle="tab"
-                          href="#nav-profile2"
-                          role="tab" aria-controls="nav-profile2"
-                          aria-selected="false">
-                          Preview
-                        </a>
-                        <a class="nav-item nav-link"
-                          id="nav-contact2-tab"
-                          data-toggle="tab"
-                          href="#nav-contact2" role="tab"
-                          aria-controls="nav-contact2"
-                          aria-selected="false">Recursos
-                        </a>
-                      </div>
-                    </nav>
-                    <div class="tab-content" id="nav-tabContent">
-                      <div class="tab-pane fade show active"
-                        id="nav-xm12" role="tabpanel"
-                        aria-labelledby="nav-xm12-tab">
-                        <h3 class="my-4">Descripción</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <div class="row">
-                          <div class="col-4">
-                            <h5 class="my-4">Conceptos a usar</h5>
-                            <ul>
-                              <li>linear layout</li>
-                              <li>layout params</li>
-                              <li>layout_gravity</li>
-                            </ul>
-                          </div>
-                          <div class="col-4">
-                            <h5 class="my-4">Tiempo estimado</h5>
-                            <span>20 minutos</span>
-                          </div>
-                          <div class="col-4">
-                            <h5 class="my-4">Etiqueta</h5>
-                            <div class="row">
-                              <div class="col-2">
-                                <img src="img/icons/checked.svg">
-                              </div>
-                              <div class="col-10">Ejercicio</div>
+                <div class="mt-4 multi-collapse">
+                  <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                      <a
+                        class="nav-item nav-link active"
+                        id="nav-xm12-tab" data-toggle="tab"
+                        href="#nav-xm12" role="tab"
+                        aria-controls="nav-xm12"
+                        aria-selected="true">
+                        Descripcion
+                      </a>
+                      <a class="nav-item nav-link"
+                        id="nav-profile2-tab"
+                        data-toggle="tab"
+                        href="#nav-profile2"
+                        role="tab" aria-controls="nav-profile2"
+                        aria-selected="false">
+                        Preview
+                      </a>
+                      <a class="nav-item nav-link"
+                        id="nav-contact2-tab"
+                        data-toggle="tab"
+                        href="#nav-contact2" role="tab"
+                        aria-controls="nav-contact2"
+                        aria-selected="false">Recursos
+                      </a>
+                    </div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active"
+                      id="nav-xm12" role="tabpanel"
+                      aria-labelledby="nav-xm12-tab">
+                      <h3 class="my-4">Descripción</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <div class="row">
+                        <div class="col-4">
+                          <h5 class="my-4">Conceptos a usar</h5>
+                          <ul>
+                            <li>linear layout</li>
+                            <li>layout params</li>
+                            <li>layout_gravity</li>
+                          </ul>
+                        </div>
+                        <div class="col-4">
+                          <h5 class="my-4">Tiempo estimado</h5>
+                          <span>20 minutos</span>
+                        </div>
+                        <div class="col-4">
+                          <h5 class="my-4">Etiqueta</h5>
+                          <div class="row">
+                            <div class="col-2">
+                              <img src="img/icons/checked.svg">
                             </div>
-                            <div class="row">
-                              <div class="col-2">
-                                <img src="img/icons/unchecked.svg">
-                              </div>
-                              <div class="col-10">Tarea</div>
+                            <div class="col-10">Ejercicio</div>
+                          </div>
+                          <div class="row">
+                            <div class="col-2">
+                              <img src="img/icons/unchecked.svg">
                             </div>
+                            <div class="col-10">Tarea</div>
                           </div>
                         </div>
                       </div>
-                      <div class="tab-pane fade"
-                        id="nav-profile2" role="tabpanel"
-                        aria-labelledby="nav-profile2-tab">
+                    </div>
+                    <div class="tab-pane fade"
+                      id="nav-profile2" role="tabpanel"
+                      aria-labelledby="nav-profile2-tab">
 
-                        <img src="01_basico/06_gui_ejemplos/preview/pre_calc.png"
-                        class="rounded mx-auto d-block my-4">
-                      </div>
-                      <div class="tab-pane fade text-center"
-                        id="nav-contact2" role="tabpanel"
-                        aria-labelledby="nav-contact-tab2">
+                      <img src="01_basico/06_gui_ejemplos/preview/pre_calc.png"
+                      class="rounded mx-auto d-block my-4">
+                    </div>
+                    <div class="tab-pane fade text-center"
+                      id="nav-contact2" role="tabpanel"
+                      aria-labelledby="nav-contact-tab2">
 
-                        <h5 class="my-4">Nada por ahora</h5>
-                      </div>
+                      <h5 class="my-4">Nada por ahora</h5>
                     </div>
                   </div>
-
                 </div>
-                <div class="tab-pane fade"
-                  id="v-pills-recursos" role="tabpanel"
-                  aria-labelledby="v-pills-recursos-tab">
 
-                  <h3 class="my-4">Material para seguir la clase</h3>
-                  <table class="table text-center">
-                    <thead class="thead-dark">
-                      <tr>
-                        <th scope="col">Tema</th>
-                        <th scope="col">Recurso</th>
-                        <th scope="col">
-                          <img src="img/icons/github-logo.svg" class="github-logo">
-                        </th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>GUIs 1</td>
-                        <td>
-                          <a href="01_basico/06_gui_ejemplos/recursos.zip">gui.zip</a>
-                        </td>
-                        <td><a href="#">Layouts</a></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
               </div>
+              <div class="tab-pane fade"
+                id="v-pills-recursos" role="tabpanel"
+                aria-labelledby="v-pills-recursos-tab">
+
+                <h3 class="my-4">Material para seguir la clase</h3>
+                <table class="table text-center">
+                  <thead class="thead-dark">
+                    <tr>
+                      <th scope="col">Tema</th>
+                      <th scope="col">Recurso</th>
+                      <th scope="col">
+                        <img src="img/icons/github-logo.svg" class="github-logo">
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>GUIs 1</td>
+                      <td>
+                        <a href="01_basico/06_gui_ejemplos/recursos.zip">gui.zip</a>
+                      </td>
+                      <td><a href="#">Layouts</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
         </div>
       </div>
 
