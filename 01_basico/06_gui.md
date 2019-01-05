@@ -256,7 +256,7 @@ Los atributos especificos más importantes del absoluteLayout son
 | layout_x | Especifíca la coordenada en x de la vista           |
 | layout_y | Especifíca la coordenada en  de la vista            |
 
-![](./img/img16.jpg)
+![](./img/abs_ex.jpg)
 
 ## Construyendo Layouts con Android Studio
 
@@ -265,25 +265,19 @@ Los atributos especificos más importantes del absoluteLayout son
 * https://developer.android.com/guide/topics/ui/
 * https://developer.android.com/reference/android/widget/LinearLayoout
 * https://developer.android.com/guide/topics/ui/declaring-layout
+* https://www.tutorialspoint.com/android/android_user_interface_layouts.htm
+* https://developer.android.com/guide/topics/ui/layout/linear?hl=es-419
+* https://developer.android.com/reference/android/widget/LinearLayout.LayoutParams?hl=es-419#xml-attributes
+* https://www.xatakandroid.com/programacion-android/que-es-y-como-se-modifica-el-escalado-de-dpi-en-android
 
+* https://developer.android.com/guide/practices/screens_support?hl=es-419
 
+* https://www.tuexpertomovil.com/2015/03/27/que-es-la-densidad-de-pixeles-en-pantalla-y-como-se-nota-su-diferencia/
 
-https://www.tutorialspoint.com/android/android_user_interface_layouts.htm
+* https://stackoverflow.com/questions/2025282/what-is-the-difference-between-px-dip-dp-and-sp
 
-https://developer.android.com/guide/topics/ui/layout/linear?hl=es-419
+* https://openwebinars.net/blog/diferencias-entre-px-dp-y-sp-en-android/
 
-https://developer.android.com/reference/android/widget/LinearLayout.LayoutParams?hl=es-419#xml-attributes
+* https://stackoverflow.com/questions/17382586/where-can-i-find-some-good-examples-of-android-ui
 
-https://www.xatakandroid.com/programacion-android/que-es-y-como-se-modifica-el-escalado-de-dpi-en-android
-
-https://developer.android.com/guide/practices/screens_support?hl=es-419
-
-https://www.tuexpertomovil.com/2015/03/27/que-es-la-densidad-de-pixeles-en-pantalla-y-como-se-nota-su-diferencia/
-
-https://stackoverflow.com/questions/2025282/what-is-the-difference-between-px-dip-dp-and-sp
-
-https://openwebinars.net/blog/diferencias-entre-px-dp-y-sp-en-android/
-
-https://stackoverflow.com/questions/17382586/where-can-i-find-some-good-examples-of-android-ui
-
-http://www.hermosaprogramacion.com/2015/08/tutorial-layouts-en-android/
+* http://www.hermosaprogramacion.com/2015/08/tutorial-layouts-en-android/
