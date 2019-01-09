@@ -59,7 +59,7 @@
           <div class="row">
             <div class="col-lg-12">
               <h1 class="my-4">Android Básico</h1>
-              <h4>Lunes 7 de enero de 2019</h4>
+              <h4>Martes 8 de enero de 2019</h4>
               <div
                 class="nav flex-column nav-pills"
                 id="v-pills-tab"
@@ -104,9 +104,9 @@
             <div class="col-lg-12">
               <h3 class="my-4"> Temas vistos</h3>
               <ul>
-                <li>Historia de Android</li>
-                <li>Herramientas de desarrollo</li>
-                <li>Layouts</li>
+                <li>ConstraintLayout</li>
+                <li>LinearLayout</li>
+                <li>GridLayout</li>
               </ul>
             </div>
           </div>
@@ -117,55 +117,12 @@
             id="v-pills-tabContent">
 <!--###################### Presentaciones #####################################################-->
               <div
-                class="tab-pane fade show active"
+                class="tab-pane fade show active text-center"
                 role="tabpanel"
                 id="v-pills-presentaciones"
                 aria-labelledby="v-pills-presentaciones-tab">
 
-                <div class="card mt-4 multi-collapse">
-                  <div class="embed-container">
-                    <iframe src="https://prezi.com/view/qlRJkiRJ7oqr2e76oCMd/embed"
-                      class="presentation-frame" allowfullscreen scrolling="no"
-                      allow="autoplay; encrypted-media">
-                    </iframe>
-                  </div>
-                  <div class="card-body">
-                    <h3 class="card-title">Presentación del curso</h3>
-                    <p class="card-text">
-                      En esta presentación encontrarás los datos de todos los intructores del curso, las reglas de convivencia y por supuesto, la forma de evaluar. Mucho  éxito.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="card mt-4 multi-collapse">
-                  <div class="embed-container">
-                    <iframe src="https://prezi.com/embed/prxoyeszlujr/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5dVFkR2RpRG9ubWVJWnRrdVJYekdpWHF3PT0&amp;landing_sign=jIBRdojQgNhDLmSBXaZxTr7KO98VDqwQm7SMvIjWCRQ"
-                      class="presentation-frame" allowfullscreen scrolling="no"
-                      allow="autoplay; encrypted-media">
-                    </iframe>
-                  </div>
-                  <div class="card-body">
-                    <h3 class="card-title">Introducción a android</h3>
-                    <p class="card-text">
-                      ¿Qué es android? ¿Cómo desarrollar para Android? Responde esta y muchas otras preguntas.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="card mt-4 multi-collapse">
-                  <div class="embed-container">
-                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT6FkSuF4vCdrh9q3AoFPPPzLMvUkN3kcKn_IudXq-dGADw-W4vFyz9a5fUB2BOiiUxWcy30YMhHuAL/embed?start=false&loop=false&delayms=3000"
-                      class="presentation-frame" allowfullscreen scrolling="no"
-                      allow="autoplay; encrypted-media">
-                    </iframe>
-                  </div>
-                  <div class="card-body">
-                    <h3 class="card-title">Interfaz de Usuario</h3>
-                    <p class="card-text">
-                      Aprende a desarrollar la vista de tus aplicaciones móviles utilizando; LinearLayout, RelativeLayout, ConstraintLayout, GridLayout, etc.
-                    </p>
-                  </div>
-                </div>
+                <h5 class="my-4">No hay presentaciones</h5>
 
               </div>
 <!--###################### Ejemplos #####################################################-->
@@ -305,8 +262,96 @@
                 id="v-pills-ejercicios"
                 aria-labelledby="v-pills-ejercicios-tab">
 
-                <h5 class="my-4">Instalar un ADB</h5>
+                <h2 class="my-4">Registro</h2>
 
+                <div class="mt-4 multi-collapse">
+                  <nav>
+                    <div class="nav nav-tabs"
+                      role="tablist"
+                      id="nav-tab_r">
+                      <a
+                        class="nav-item nav-link active"
+                        data-toggle="tab" role="tab"
+                        aria-selected="true"
+                        id="nav-descp2-tab_r"
+                        href="#nav-descp2_r"
+                        aria-controls="nav-descp2_r">
+                        Descripción
+                      </a>
+                      <a class="nav-item nav-link"
+                        data-toggle="tab" role="tab"
+                        aria-selected="false"
+                        id="nav-preview2-tab_r"
+                        href="#nav-preview2_r"
+                        aria-controls="nav-preview2_r">
+                        Preview
+                      </a>
+                      <a class="nav-item nav-link"
+                        data-toggle="tab" role="tab"
+                        aria-selected="false"
+                        href="#nav-recursos_r"
+                        id="nav-recursos-tab_r"
+                        aria-controls="nav-recursos_r">
+                        Recursos
+                      </a>
+                    </div>
+                  </nav>
+                  <div class="tab-content"
+                    id="nav-tabContent">
+                    <div class="tab-pane fade show active description-asignacion"
+                      role="tabpanel"
+                      id="nav-descp2_r"
+                      aria-labelledby="nav-descp2-tab_r">
+
+                      <h3 class="my-4">Descripción</h3>
+                      <p>Deberá crear un layout que sirva como formulario para que el Usuario se registre en nuestra aplicación llamada IngeHorario. Tiene que mostrar el logotipo de la aplicación, campos como ; nombre, correo, contraseña, carrera, número de cuenta, etc.</p>
+                      <div class="row">
+                        <div class="col-4">
+                          <h5 class="my-4">Conceptos a usar</h5>
+                          <ul>
+                            <li>linear layout</li>
+                            <li>layout params</li>
+                            <li>layout_gravity</li>
+                          </ul>
+                        </div>
+                        <div class="col-4">
+                          <h5 class="my-4">Tiempo estimado</h5>
+                          <span>20 minutos</span>
+                        </div>
+                        <div class="col-4">
+                          <h5 class="my-4">Etiqueta</h5>
+                          <div class="row">
+                            <div class="col-2">
+                              <img src="../img/icons/unchecked.svg">
+                            </div>
+                            <div class="col-10">Ejercicio</div>
+                          </div>
+                          <div class="row">
+                            <div class="col-2">
+                              <img src="../img/icons/checked.svg">
+                            </div>
+                            <div class="col-10">Tarea</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade"
+                      role="tabpanel"
+                      id="nav-preview2_r"
+                      aria-labelledby="nav-preview2-tab_r">
+
+                      <img src="../appmockups/ingehorario/signup.png"
+                      class="rounded mx-auto d-block my-4">
+                    </div>
+                    <div class="tab-pane fade text-center"
+                      role="tabpanel"
+                      id="nav-recursos_r"
+                      aria-labelledby="nav-recursos-tab_r">
+
+                      <h5 class="my-4">Utilizar los mismos recursos que en los ejemplos</h5>
+                    </div>
+                  </div>
+                </div>
               </div>
 <!--###################### Recursos #####################################################-->
               <div class="tab-pane fade"
