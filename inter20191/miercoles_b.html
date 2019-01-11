@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../img/logo/androidk.ico">
+    <title>Curso de android</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/androidk.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">Androidk</a>
+        <button class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                Intersemestrales<span class="sr-only">(current)</span>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="../inter20191.html">2019-1</a>
+                <!--div class="dropdown-divider"></div-->
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--./navegation-->
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+        <div class="col-lg-3">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 class="my-4">Android Básico</h1>
+              <h4>Martes 8 de enero de 2019</h4>
+              <div
+                class="nav flex-column nav-pills"
+                id="v-pills-tab"
+                role="tablist"
+                aria-orientation="vertical">
+                <a class="nav-link active"
+                  data-toggle="pill" role="tab"
+                  aria-selected="true"
+                  id="v-pills-presentaciones-tab"
+                  href="#v-pills-presentaciones"
+                  aria-controls="v-pills-presentaciones">
+                  Presentaciones
+                </a>
+                <a class="nav-link"
+                  data-toggle="pill" role="tab"
+                  aria-selected="false"
+                  id="v-pills-ejemplos-tab"
+                  href="#v-pills-ejemplos"
+                  aria-controls="v-pills-ejemplos">
+                  Ejemplos
+                </a>
+                <a class="nav-link"
+                  data-toggle="pill" role="tab"
+                  aria-selected="false"
+                  id="v-pills-ejercicios-tab"
+                  href="#v-pills-ejercicios"
+                  aria-controls="v-pills-ejercicios">
+                  Asignaciones
+                </a>
+                <a class="nav-link"
+                  data-toggle="pill" role="tab"
+                  aria-selected="false"
+                  id="v-pills-recursos-tab"
+                  href="#v-pills-recursos"
+                  aria-controls="v-pills-recursos">
+                  Recursos
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <h3 class="my-4"> Temas vistos</h3>
+              <ul>
+                <li>ConstraintLayout</li>
+                <li>LinearLayout</li>
+                <li>GridLayout</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-9 fix-cards">
+          <div class="tab-content"
+            id="v-pills-tabContent">
+<!--###################### Presentaciones #####################################################-->
+              <div
+                class="tab-pane fade show active text-center"
+                role="tabpanel"
+                id="v-pills-presentaciones"
+                aria-labelledby="v-pills-presentaciones-tab">
+
+                <h5 class="my-4">No hay presentaciones</h5>
+
+              </div>
+<!--###################### Ejemplos #####################################################-->
+              <div class="tab-pane fade"
+                id="v-pills-ejemplos"
+                role="tabpanel"
+                aria-labelledby="v-pills-ejemplos-tab">
+
+                <h2 class="my-4">ConstraintLayout</h2>
+                <div class="mt-4 multi-collapse">
+                  <nav>
+                    <div class="nav nav-tabs"
+                      role="tablist"
+                      id="nav-tab">
+                      <a class="nav-item nav-link active"
+                        data-toggle="tab" role="tab"
+                        aria-selected="true"
+                        id="nav-descp-tab"
+                        href="#nav-descp"
+                        aria-controls="nav-descp">
+                        Descripción
+                      </a>
+                      <a class="nav-item nav-link"
+                        data-toggle="tab" role="tab"
+                        aria-selected="true"
+                        id="nav-preview-tab"
+                        href="#nav-preview"
+                        aria-controls="nav-preview">
+                        Preview
+                      </a>
+                      <a class="nav-item nav-link"
+                        data-toggle="tab" role="tab"
+                        aria-selected="false"
+                        id="nav-xml-1-tab"
+                        href="#nav-xml-1"
+                        aria-controls="nav-xml-1">
+                        activity_main.xml
+                      </a>
+                    </div>
+                  </nav>
+
+                  <div class="tab-content"
+                    id="nav-tabContent">
+                    <div
+                      class="tab-pane fade show active description-asignacion"
+                      role="tabpanel"
+                      id="nav-descp"
+                      aria-labelledby="nav-descp-tab"
+                      <p class="my-4">
+                        ConstraintLayout es el layout recomendado por Google. Le permite crear diseños grandes y complejos con una jerarquía de vista plana (sin grupos de vistas anidadas). Es similar a RelativeLayout en el sentido de que todas las vistas están diseñadas de acuerdo con las relaciones entre las vistas de hermanos y el diseño principal, pero es más flexible que RelativeLayout y más fácil de usar con el Editor de diseño de Android Studio.
+                      </p>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      role="tabpanel"
+                      id="nav-preview"
+                      aria-labelledby="nav-preview-tab">
+                      <img src="preview/mainview.png"
+                        class="rounded mx-auto d-block my-4">
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      role="tabpanel"
+                      id="nav-xml-1"
+                      aria-labelledby="nav-xml-1-tab">
+                        <script src="https://gist-it.appspot.com/https://github.com/RodrigoFrancisco/IngeHorario/blob/master/app/src/main/res/layout/activity_main.xml"></script>
+                    </div>
+                  </div>
+                </div>
+
+                <h2 class="my-4">LinearLayout</h2>
+                <div class="mt-4 multi-collapse">
+                  <nav>
+                    <div class="nav nav-tabs"
+                      role="tablist"
+                      id="nav-tab2">
+                      <a class="nav-item nav-link active"
+                        data-toggle="tab" role="tab"
+                        aria-selected="true"
+                        id="nav-descp-tab2"
+                        href="#nav-descp2"
+                        aria-controls="nav-descp2">
+                        Descripción
+                      </a>
+                      <a class="nav-item nav-link"
+                        data-toggle="tab" role="tab"
+                        aria-selected="true"
+                        id="nav-preview-tab2"
+                        href="#nav-preview2"
+                        aria-controls="nav-preview2">
+                        Preview
+                      </a>
+                      <a class="nav-item nav-link"
+                        data-toggle="tab" role="tab"
+                        aria-selected="false"
+                        id="nav-xml-1-tab2"
+                        href="#nav-xml-1_2"
+                        aria-controls="nav-xml-1_2">
+                        linear.xml
+                      </a>
+                    </div>
+                  </nav>
+
+                  <div class="tab-content"
+                    id="nav-tabContent2">
+                    <div
+                      class="tab-pane fade show active description-asignacion"
+                      role="tabpanel"
+                      id="nav-descp2"
+                      aria-labelledby="nav-descp-tab2"
+                      <p class="my-4">
+                        Es un diseño que organiza otras vistas horizontalmente en una sola columna o verticalmente en una sola fila.
+                      </p>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      role="tabpanel"
+                      id="nav-preview2"
+                      aria-labelledby="nav-preview-tab2">
+                      <img src="preview/linear.png"
+                        class="rounded mx-auto d-block my-4">
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      role="tabpanel"
+                      id="nav-xml-1_2"
+                      aria-labelledby="nav-xml-1-tab2">
+                        <script src="https://gist-it.appspot.com/https://github.com/RodrigoFrancisco/IngeHorario/blob/master/app/src/main/res/layout/linear.xml"></script>
+                    </div>
+                  </div>
+                </div>
+              </div>
+<!--###################### Asignaciones #####################################################-->
+              <div
+                class="tab-pane fade"
+                role="tabpanel"
+                id="v-pills-ejercicios"
+                aria-labelledby="v-pills-ejercicios-tab">
+
+                <h2 class="my-4">Registro</h2>
+
+                <div class="mt-4 multi-collapse">
+                  <nav>
+                    <div class="nav nav-tabs"
+                      role="tablist"
+                      id="nav-tab_r">
+                      <a
+                        class="nav-item nav-link active"
+                        data-toggle="tab" role="tab"
+                        aria-selected="true"
+                        id="nav-descp2-tab_r"
+                        href="#nav-descp2_r"
+                        aria-controls="nav-descp2_r">
+                        Descripción
+                      </a>
+                      <a class="nav-item nav-link"
+                        data-toggle="tab" role="tab"
+                        aria-selected="false"
+                        id="nav-preview2-tab_r"
+                        href="#nav-preview2_r"
+                        aria-controls="nav-preview2_r">
+                        Preview
+                      </a>
+                      <a class="nav-item nav-link"
+                        data-toggle="tab" role="tab"
+                        aria-selected="false"
+                        href="#nav-recursos_r"
+                        id="nav-recursos-tab_r"
+                        aria-controls="nav-recursos_r">
+                        Recursos
+                      </a>
+                    </div>
+                  </nav>
+                  <div class="tab-content"
+                    id="nav-tabContent">
+                    <div class="tab-pane fade show active description-asignacion"
+                      role="tabpanel"
+                      id="nav-descp2_r"
+                      aria-labelledby="nav-descp2-tab_r">
+
+                      <h3 class="my-4">Descripción</h3>
+                      <p>Deberá crear un layout que sirva como formulario para que el Usuario se registre en nuestra aplicación llamada IngeHorario. Tiene que mostrar el logotipo de la aplicación, campos como ; nombre, correo, contraseña, carrera, número de cuenta, etc.</p>
+                      <div class="row">
+                        <div class="col-4">
+                          <h5 class="my-4">Conceptos a usar</h5>
+                          <ul>
+                            <li>linear layout</li>
+                            <li>layout params</li>
+                            <li>layout_gravity</li>
+                          </ul>
+                        </div>
+                        <div class="col-4">
+                          <h5 class="my-4">Tiempo estimado</h5>
+                          <span>20 minutos</span>
+                        </div>
+                        <div class="col-4">
+                          <h5 class="my-4">Etiqueta</h5>
+                          <div class="row">
+                            <div class="col-2">
+                              <img src="../img/icons/unchecked.svg">
+                            </div>
+                            <div class="col-10">Ejercicio</div>
+                          </div>
+                          <div class="row">
+                            <div class="col-2">
+                              <img src="../img/icons/checked.svg">
+                            </div>
+                            <div class="col-10">Tarea</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade"
+                      role="tabpanel"
+                      id="nav-preview2_r"
+                      aria-labelledby="nav-preview2-tab_r">
+
+                      <img src="../appmockups/ingehorario/signup.png"
+                      class="rounded mx-auto d-block my-4">
+                    </div>
+                    <div class="tab-pane fade text-center"
+                      role="tabpanel"
+                      id="nav-recursos_r"
+                      aria-labelledby="nav-recursos-tab_r">
+
+                      <h5 class="my-4">Utilizar los mismos recursos que en los ejemplos</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+<!--###################### Recursos #####################################################-->
+              <div class="tab-pane fade"
+                role="tabpanel"
+                id="v-pills-recursos"
+                aria-labelledby="v-pills-recursos-tab">
+
+                <h3 class="my-4">Material para seguir la clase</h3>
+                <table class="table text-center">
+                  <thead class="thead-dark">
+                    <tr>
+                      <th scope="col">Tema</th>
+                      <th scope="col">Recurso</th>
+                      <th scope="col">
+                        <img src="../img/icons/github-logo.svg" class="github-logo">
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>GUIs 1</td>
+                      <td>
+                        <a href="../01_basico/06_gui_ejemplos/recursos.zip">gui.zip</a>
+                      </td>
+                      <td><a href="https://github.com/RodrigoFrancisco/IngeHorario">Layouts</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Androidk 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
