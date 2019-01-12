@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Relative">
+
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/tv1"
+            android:textSize="20sp"
+            android:textColor="@color/color2"
+            android:text="@string/titulo"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:background="@color/color3">
+        <TextView android:layout_width="wrap_content"
+            android:text="Materias"
+            android:layout_weight="2"
+            android:textColor="@color/color1"
+            android:textAlignment="center"
+            android:id="@+id/tv2"
+            android:layout_height="wrap_content"/>
+        <TextView android:layout_width="wrap_content"
+            android:id="@+id/tv3"
+            android:layout_weight="1"
+            android:textColor="@color/color1"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="Créditos"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_margin="10dp"
+
+        >
+        <TextView android:layout_width="wrap_content"
+            android:text="Informática"
+            android:layout_weight="2"
+            android:textColor="@color/color4"
+            android:layout_height="wrap_content"/>
+        <TextView android:layout_width="wrap_content"
+            android:text="12"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:textColor="@color/color4"
+            android:layout_height="wrap_content"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_margin="10dp"
+
+        >
+        <TextView android:layout_width="wrap_content"
+            android:text="Programación Orientada a Objetos"
+            android:textColor="@color/color4"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"/>
+        <TextView android:layout_width="wrap_content"
+            android:text="12"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:textColor="@color/color4"
+            android:layout_height="wrap_content"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_margin="10dp"
+
+        >
+        <TextView android:layout_width="wrap_content"
+            android:text="Base de datos"
+            android:textColor="@color/color4"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"/>
+        <TextView android:layout_width="wrap_content"
+            android:text="14"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:textColor="@color/color4"
+            android:layout_height="wrap_content"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_margin="10dp"
+
+        >
+        <TextView android:layout_width="wrap_content"
+            android:text="Dispositivos ELectrónicos"
+            android:textColor="@color/color4"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"/>
+        <TextView android:layout_width="wrap_content"
+            android:text="10"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:textColor="@color/color4"
+            android:layout_height="wrap_content"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_margin="10dp"
+
+        >
+        <TextView android:layout_width="wrap_content"
+            android:text="Total"
+            android:gravity="right"
+            android:textColor="@color/color4"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"/>
+        <TextView android:layout_width="wrap_content"
+            android:text="48"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:textColor="@color/color4"
+            android:layout_height="wrap_content"/>
+
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:background="@drawable/bg_bt_iniciar_2"
+            android:text="Agregar"
+            android:layout_margin="10dp"
+            android:textColor="@color/color1"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:background="@drawable/bg_bt_iniciar_2"
+            android:text="Eliminar"
+            android:layout_margin="10dp"
+            android:textColor="@color/color1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</TableLayout>

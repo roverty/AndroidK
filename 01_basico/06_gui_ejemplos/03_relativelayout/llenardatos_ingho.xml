@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/color5"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<TextView
+    android:id="@+id/tv_titulo"
+    android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+    android:text="Ingrese sus datos"
+    android:textSize="24sp"
+    android:layout_centerHorizontal="true"
+    android:textColor="@color/color2"
+    android:layout_marginBottom="10dp"
+    android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:id="@+id/et_usuario"
+        android:layout_centerHorizontal="true"
+        android:hint="Usuario"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/tv_titulo"
+        android:background="@drawable/bg_et"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="140dp"
+        android:id="@+id/et_ap"
+        android:hint="Apellido Paterno"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/et_usuario"
+        android:background="@drawable/bg_et"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="140dp"
+        android:id="@+id/et_am"
+        android:hint="Apellido Materno"
+        android:paddingLeft="10dp"
+        android:layout_toRightOf="@id/et_ap"
+        android:layout_below="@id/et_usuario"
+        android:background="@drawable/bg_et"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tv_carrera"
+        android:text="Carrera"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/et_ap"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_below="@id/tv_carrera"
+        android:entries="@array/materias"
+        android:layout_marginTop="10dp"
+        android:id="@+id/spin"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"></Spinner>
+
+    <EditText
+        android:layout_width="300dp"
+        android:id="@+id/et_cuenta"
+        android:layout_centerHorizontal="true"
+        android:hint="Numero de cuenta"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/spin"
+        android:background="@drawable/bg_et"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="300dp"
+        android:id="@+id/et_seguro_social"
+        android:layout_centerHorizontal="true"
+        android:hint="Número de seguro social"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/et_cuenta"
+        android:background="@drawable/bg_et"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="300dp"
+        android:id="@+id/et_celular"
+        android:layout_centerHorizontal="true"
+        android:hint="Numero de celular"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/et_seguro_social"
+        android:background="@drawable/bg_et"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:background="@drawable/bg_bt_iniciar_2"
+        android:text="Actualizar"
+        android:id="@+id/btn1"
+        android:textColor="@color/color1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/et_celular"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
+
