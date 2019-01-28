@@ -64,3 +64,24 @@ https://www.youtube.com/watch?v=z5ovDP6PNcw
 https://stackoverflow.com/questions/6645537/how-to-detect-the-swipe-left-or-right-in-android
 
 https://developer.android.com/guide/practices/compatibility
+
+
+
+---------------------------------------------------------------------------------------------
+
+## New links
+
+* [Constraint + Responsive](https://developer.android.com/training/constraint-layout/?hl=es-419)
+
+* [WebSoap](https://www.youtube.com/watch?v=oV7UFdo05Po)
+* [Arquitectura Servicios web](http://www.jtech.ua.es/j2ee/publico/servc-web-2012-13/sesion01-apuntes.html)
+* [Consumo webservice REST hermosa prog](http://www.hermosaprogramacion.com/2015/12/consumir-un-servicio-web-rest-desde-android/)
+* [hermosa prog parte 2 webservice](http://www.hermosaprogramacion.com/2015/10/servicio-web-restful-android-php-mysql-json/)
+* [maps](https://www.youtube.com/watch?v=oUHngtm6PQE)
+* [languajes dynamic](https://www.youtube.com/watch?v=zILw5eV9QBQ)
+* [Facebook SDK](https://www.youtube.com/watch?v=KjBNFWKNMOY)
+* [Storyboards android](https://www.youtube.com/watch?v=GOpeBbfyb6s)
+* [Importancia de onViewCreated](https://stackoverflow.com/questions/34541650/nullpointerexception-when-trying-to-access-views-in-a-kotlin-fragment)
+* [Sensores I](https://developer.android.com/guide/topics/sensors/sensors_overview)
+* [Sensores II](https://developer.android.com/guide/topics/sensors/sensors_position)
+
