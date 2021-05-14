@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#4487D9"
+>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:paddingVertical="25dp"
+            android:background="#3F6EA8"
+            android:layout_marginBottom="20dp"
+            >
+
+            <ImageView
+                    android:src="@drawable/user_bigger"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+            />
+            <TextView
+                        android:text="¡Bienvenido!\nDiego\nMedina"
+                        android:fontFamily="@font/passion_one"
+                        android:textColor="#FFF"
+                        android:textSize="25sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_bienvenido"
+                        android:layout_weight="4"
+            />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:paddingVertical="20dp"
+            android:id="@+id/rv_quizz"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>

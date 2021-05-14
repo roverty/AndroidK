@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name" translatable="false">Clase2</string>
+    <string name="nombre_app">Hello</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="descripcion_logo_manzana">Logo manzana</string>
+    <string name="registro">Registro</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="telefono">Teléfono</string>
+    <string name="correo">Correo</string>
+    <string name="genero">Género:</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="animals">Animals</string>
+    <string name="check">Check</string>
+</resources>

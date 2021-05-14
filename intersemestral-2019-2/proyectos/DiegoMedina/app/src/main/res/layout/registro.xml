@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!-- dp = Mismo tamaño en cualquier resolución misma pantalla.
+         sp = Mismo tamaño de letra independiente del tamaño por default en
+              android.
+
+         FrameLayout solo puede haber una instancia y se alinea con
+         left, right, center, top, bottom, vertical, horizontal
+         y combinaciones.
+    -->
+
+    <FrameLayout
+            android:background="#3F6EA8"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <TextView
+                    android:fontFamily="@font/passion_one"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/registro"
+                    android:textColor="#FFF"
+                    android:textSize="50sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+    </FrameLayout>
+
+    <!-- El ScrollView ayuda a hacer 'scroll' en los elementos de la
+         pantalla que no se verán en algunos dispositivos
+
+         En el EditText, el hint ayuda a colocar una 'pista' de lo que
+         el usuario tiene que escribir.
+
+         El Linear Layout acomoda los elementos de forma horizontal o vértical en forma de pila
+
+         En el EditText el inputTupe de textPersonName coloca la primera letra
+         en mayúscula de cada palabra, útil en nombres.
+
+    -->
+
+    <ScrollView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                    android:background="#4487D9"
+                    android:padding="40dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                            android:paddingBottom="40dp"
+                            android:layout_weight="3"
+                            android:src="@drawable/user_bigger"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"/>
+                    <EditText
+                            android:textColor="#000"
+                            android:fontFamily="@font/passion_one"
+                            android:drawableLeft="@drawable/person"
+                            android:paddingLeft="15dp"
+                            android:drawablePadding="15dp"
+                            android:background="@drawable/et_bg"
+                            android:layout_weight="1"
+                            android:inputType="textPersonName"
+                            android:id="@+id/et_nombre"
+                            android:textColorHint="#D1D1D1"
+                            android:hint="@string/nombre"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"/>
+                    <EditText
+                            android:textColor="#000"
+                            android:fontFamily="@font/passion_one"
+                            android:drawableLeft="@drawable/person"
+                            android:paddingLeft="15dp"
+                            android:drawablePadding="15dp"
+                            android:background="@drawable/et_bg"
+                            android:layout_marginTop="@dimen/marginEditText"
+                            android:layout_weight="1"
+                            android:inputType="textPersonName"
+                            android:id="@+id/et_apellidos"
+                            android:textColorHint="#D1D1D1"
+                            android:hint="@string/apellidos"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"/>
+                    <EditText
+                            android:textColor="#000"
+                            android:fontFamily="@font/passion_one"
+                            android:drawableLeft="@drawable/email"
+                            android:paddingLeft="15dp"
+                            android:drawablePadding="15dp"
+                            android:background="@drawable/et_bg"
+                            android:layout_marginTop="@dimen/marginEditText"
+                            android:layout_weight="1"
+                            android:inputType="textEmailAddress"
+                            android:id="@+id/et_email"
+                            android:textColorHint="#D1D1D1"
+                            android:hint="@string/correo"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"/>
+                    <EditText
+                            android:textColor="#000"
+                            android:fontFamily="@font/passion_one"
+                            android:drawableLeft="@drawable/key"
+                            android:paddingLeft="15dp"
+                            android:drawablePadding="15dp"
+                            android:background="@drawable/et_bg"
+                            android:layout_marginTop="@dimen/marginEditText"
+                            android:layout_weight="1"
+                            android:inputType="textPassword"
+                            android:id="@+id/et_registro_contrasena"
+                            android:textColorHint="#D1D1D1"
+                            android:hint="Contraseña"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"/>
+                    <EditText
+                            android:textColor="#000"
+                            android:fontFamily="@font/passion_one"
+                            android:drawableLeft="@drawable/phone"
+                            android:paddingLeft="15dp"
+                            android:drawablePadding="15dp"
+                            android:background="@drawable/et_bg"
+                            android:layout_marginTop="@dimen/marginEditText"
+                            android:layout_weight="1"
+                            android:inputType="phone"
+                            android:id="@+id/et_telefono"
+                            android:textColorHint="#D1D1D1"
+                            android:hint="@string/telefono"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"/>
+                    <TextView
+                            android:paddingTop="10sp"
+                            android:fontFamily="@font/passion_one"
+                            android:textColor="#FFF"
+                            android:textSize="30sp"
+                            android:text="@string/genero"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    <RadioGroup
+                            android:paddingBottom="15sp"
+                            android:paddingLeft="10sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <RadioButton
+                                    android:textSize="25sp"
+                                    android:fontFamily="@font/passion_one"
+                                    android:id="@+id/rb_masculino"
+                                    android:hint="@string/masculino"
+                                    android:textColorHint="#FFF"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                            <RadioButton
+                                    android:textSize="25sp"
+                                    android:fontFamily="@font/passion_one"
+                                    android:id="@+id/rb_femenino"
+                                    android:hint="@string/femenino"
+                                    android:textColorHint="#FFF"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"/>
+                    </RadioGroup>
+                    <Button
+                            android:id="@+id/bt_registrarse"
+                            android:textAllCaps="false"
+                            android:text="Registrarse"
+                            android:textColor="#FFF"
+                            android:background="@drawable/bt_bg"
+                            android:fontFamily="@font/passion_one"
+                            android:textSize="35sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+            </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

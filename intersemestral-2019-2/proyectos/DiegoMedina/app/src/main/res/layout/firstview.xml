@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+        android:background="@drawable/fondo"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!--
+    SP - para texto (Scale Pixels)
+    DP - para todos los demas.
+    -->
+
+    <!-- Texto de hello -->
+    <TextView
+            android:textColor="#FFFFFF"
+            android:textSize="90sp"
+            android:fontFamily="@font/passion_one"
+            android:text="@string/nombre_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_hello"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" android:layout_marginBottom="40dp"
+            app:layout_constraintBottom_toTopOf="@+id/first_bt_ingresar"/>
+
+    <!-- Logo de manzana -->
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/logo"
+            android:id="@+id/imageView" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginTop="56dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/tv_hello"
+            app:layout_constraintVertical_bias="0.0" android:contentDescription="@string/descripcion_logo_manzana"/>
+
+    <!-- Botón de ingresar -->
+    <Button
+            android:textColor="#FFF"
+            android:textAllCaps="false"
+            android:background="@drawable/bt_bg"
+            android:textSize="35sp"
+            android:fontFamily="@font/passion_one"
+            android:text="@string/ingresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/first_bt_ingresar" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginBottom="48dp"
+            app:layout_constraintBottom_toTopOf="@+id/first_bt_registrarse" app:layout_constraintHorizontal_bias="0.498"/>
+
+    <!-- Botón de registro -->
+    <Button
+            android:textColor="#FFF"
+            android:textAllCaps="false"
+            android:background="@drawable/bt_bg"
+            android:textSize="35sp"
+            android:fontFamily="@font/passion_one"
+            android:text="@string/registrarse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/first_bt_registrarse" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginBottom="72dp" app:layout_constraintBottom_toBottomOf="parent"
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
